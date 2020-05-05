@@ -135,18 +135,21 @@ body,
 }
 
 #header .header-top .menu-btn {
-  float: left;
+  position: absolute;
+  left: 140px;
+  top: 11px;
+  /*float: left;*/
   width: 13.51111111rem;
   height: 2rem;
   background: url('../img/logo.png') no-repeat;
   background-size: 2.01481481rem 3.45185185rem;
-  background-position: center 0.23703704rem;
+  /*background-position: center 0.23703704rem;*/
   border: none;
 }
 #header .header-top h2{
   position: absolute;
-  left: 199px;
-  top: 16px;
+  left: 190px;
+  top: 21px;
   font-size: 28px;
 }
 
