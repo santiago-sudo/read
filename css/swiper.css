@@ -1,0 +1,32 @@
+.swiper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.swiper-wrapper {
+  display: flex;
+}
+.swiper-item img {
+  width: 100%;
+  display: block;
+}
+.pagination {
+  position: absolute;
+  left: 0;
+  bottom: 8px;
+  width: 100%;
+  font-size: 0;
+  text-align: center;
+}
+.pagination span {
+  display: inline-block;
+  margin: 0 2px;
+  width: 10px;
+  height: 10px;
+  background: #888;
+  border-radius: 50%;
+}
+.pagination span.active {
+  background: deeppink;
+}
+/*# sourceMappingURL=swiper.css.map */

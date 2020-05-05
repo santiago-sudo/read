@@ -1,0 +1,270 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 14px "Microsoft YaHei", "Arial", "黑体", sans-serif;
+  color: white;
+  background-color: black;
+}
+td,
+th,
+caption {
+  font-size: 14px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+  font-weight: normal;
+  font-size: 100%;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+input,
+textarea,
+select,
+button {
+  font: 14px "Microsoft YaHei", "Arial", "黑体", sans-serif;
+}
+table {
+  border-collapse: collapse;
+}
+.swiper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.swiper-wrapper {
+  display: flex;
+}
+.swiper-item img {
+  width: 100%;
+  display: block;
+}
+.pagination {
+  position: absolute;
+  left: 0;
+  bottom: 8px;
+  width: 100%;
+  font-size: 0;
+  text-align: center;
+}
+.pagination span {
+  display: inline-block;
+  margin: 0 2px;
+  width: 10px;
+  height: 10px;
+  background: #888;
+  border-radius: 50%;
+}
+.pagination span.active {
+  background: deeppink;
+}
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#app {
+  background: #000000;
+}
+#header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  background: #000000;
+}
+#header .header-top {
+  position: relative;
+  height: 3rem;
+}
+
+#header .header-top .menu-btn {
+  float: left;
+  width: 13.51111111rem;
+  height: 2rem;
+  background: url('../img/logo.png') no-repeat;
+  background-size: 2.01481481rem 3.45185185rem;
+  background-position: center 0.23703704rem;
+  border: none;
+}
+#header .header-top h2{
+  position: absolute;
+  left: 199px;
+  top: 16px;
+  font-size: 28px;
+}
+
+#header .search-form {
+  height: 1.52592593rem;
+  padding: 0.23703704rem;
+}
+#header .search-form form {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+#header .search-form input {
+  position: absolute;
+  left: 40px;
+  top: -10px;
+  box-sizing: border-box;
+  width: 12.28148148rem;
+  height: 1.52592593rem;
+  padding: 0.07407407rem 0.14814815rem;
+  font-size: 0.60740741rem;
+  color: #333;
+  background: #999;
+  border: 0.01481481rem solid #5a5a5a;
+  border-radius: 0.72222222rem;
+}
+#header .search-form input:focus {
+  background: #fff;
+  outline: none;
+}
+#header .search-form input::-webkit-input-placeholder {
+  color: #333;
+}
+
+#main {
+  padding-top: 4rem;
+}
+
+#main .tab {
+  margin: 0 auto;
+  width: 15.4962963rem;
+  background: #000000;
+  overflow: hidden;
+}
+#main .tab .tab-header {
+  position: relative;
+  background: #000000;
+  height: 3rem;
+  line-height: 3rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+#main .tab .tab-header h2 {
+  position: absolute;
+  top: 20px;
+  font-size: 1.0962963rem;
+  color: white;
+  font-weight: bold;
+}
+#main .tab .tab-header a {
+  font-size: 0.6rem;
+  color: #000;
+}
+
+#main .tab .tab-content {
+  display: flex;
+  width: 300%;
+}
+#main .tab .tab-content .tab-list {
+  position: relative;
+  flex: none;
+  width: 33.33%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#main .tab .tab-content .tab-list li {
+  position: relative;
+  flex: none;
+  box-sizing: border-box;
+  margin: 0.11851852rem;
+  padding: 0.07407407rem;
+  width: 100%;
+  height: 190px;
+  font-size: 0.59259259rem;
+  background: #000000;
+}
+
+
+#main .tab .tab-content .tab-list li img {
+  width: 116px;
+  height: 166px;
+  display: block;
+}
+#main .tab .tab-content .tab-list li h3 {
+  position: absolute;
+  left: 140px;
+  top: 55px;
+  float: right;
+  font-size: 0.59259259rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#main .tab .tab-content .tab-loading {
+  flex: none;
+  width: 33.33%;
+  height: 1.4962963rem;
+
+}
+#scrollBar {
+  position: absolute;
+  z-index: 10001;
+  top: 0;
+  right: 0;
+  width: 4px;
+  background: rgba(125, 125, 125, 0.8);
+  border-radius: 2px;
+}
+
